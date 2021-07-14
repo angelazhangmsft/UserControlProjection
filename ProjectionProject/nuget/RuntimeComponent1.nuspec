@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RuntimeComponent1</id>
+    <version>0.1.1-prerelease</version>
+    <authors>angzhang</authors>
+    <description>A simple component with a user control</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows10.0.19041.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\_build\x64\Debug\ProjectionProject\bin\ProjectionProject.dll" target="lib\net5.0-windows10.0.19041.0\ProjectionProject.dll" />
+    <file src="..\..\_build\x64\Debug\RuntimeComponent1\bin\RuntimeComponent1\RuntimeComponent1.dll" target="runtimes\win10-x64\native\RuntimeComponent1.dll" />
+  </files>
+</package>
